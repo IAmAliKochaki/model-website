@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Roya';
+    src: url('../fonts/Roya.ttf');
+}
+
+@font-face {
+    font-family: Lalezar;
+    src: url('../fonts/Lalezar.ttf');
+}
+
+@font-face {
+    font-family: Ferda;
+    src: url('../fonts/Fedra.ttf');
+}
+
+body {
+    font-family: Roya;
+}
+
+.header {
+    height: 400px;
+    background-image: url('../images/background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.header .nav-list {
+    list-style-type: none;
+}
+
+.header .nav-list .nav-item {
+    display: inline-block;
+    padding: 15px;
+}
+
+
+.header .nav-list a {
+    color: aqua;
+}
+
+.header .nav-list a:hover {
+    color: orange;
+    font-weight: bolder;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-family: Lalezar;
+    margin-top: 60px;
+}
+
+.header h1 span {
+    color: orange;
+}
+
+.description {
+    width: 400px;
+    margin: auto;
+    height: 55px;
+    line-height: 55px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 1px solid aqua;
+    margin-top: 40px;
+}
+
+.members ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Display list items in a row */
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+}
+
+.members li {
+    margin: 5px;
+    box-shadow: 0 0 5px gray;
+}
+
+.members img {
+    width: 350px;
+    height: 300px;
+    display: block;
+    /* Remove any extra spacing below the image */
+    margin: auto;
+}

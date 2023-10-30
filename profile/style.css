@@ -1,0 +1,86 @@
+body {
+    background-color: rgba(20, 10, 112, 0.42);
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 450px;
+    height: 480px;
+    background-color: black;
+    margin: auto;
+    margin-top: 80px;
+    padding: 30px 0;
+    color: aqua;
+    box-shadow: 0 0 10px rgb(0, 217, 255);
+    border-radius: 2px;
+}
+
+.profile {
+    width: 250px;
+    display: block;
+    margin: auto;
+    border: 2px solid rgb(0, 190, 190);
+    border-radius: 50%;
+}
+
+.title {
+    width: 225px;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(51, 0, 255);
+    border-bottom: 2px solid rgb(51, 0, 255);
+    border-radius: 15px;
+}
+
+.description {
+    text-align: center;
+}
+
+.platforms {
+    text-align: center;
+}
+
+.platforms img {
+    background-color: aliceblue;
+    width: 35px;
+    margin: 0 8px;
+    border: 2px solid rgb(100, 205, 255);
+    border-radius: 50%;
+}
+
+.platforms img:hover {
+    border: 0px;
+    width: 38px;
+    /*
+    border-radius: 50%;*/
+    box-shadow: 0 0 30px rgb(220, 98, 50);
+    cursor: pointer;
+}
+
+#back-home {
+    text-align: center;
+    font-size: x-large;
+    margin: 15px;
+    padding: 10px;
+}
+
+#back-home a{
+    background-color: darkred;
+    color: aqua;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#back-home a:hover {
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+    border-radius: 15px;
+}
